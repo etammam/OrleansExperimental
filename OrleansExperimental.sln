@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# 
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{0DA44E66-F74D-445F-86A1-ABCEB5E5900A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Order", "Order", "{0B7303B4-40CB-485F-943B-E8DBDFA90177}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansExperimental.Orders.Core", "OrleansExperimental.Orders.Core\OrleansExperimental.Orders.Core.csproj", "{2F2A7117-7543-4B30-9A91-B4C6A26D183D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansExperimental.Orders.Api", "OrleansExperimental.Orders.Api\OrleansExperimental.Orders.Api.csproj", "{1FA678D0-49BF-4FDC-AE20-A4F13051A0BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Customer", "Customer", "{6EA90B0C-DDCC-4AD7-8687-8F343FF3D91A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansExperimental.Customers.Core", "OrleansExperimental.Customers.Core\OrleansExperimental.Customers.Core.csproj", "{F3D29D2C-FCB6-4466-A4D9-11CEF42A9465}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansExperimental.Customers.Api", "OrleansExperimental.Customers.Api\OrleansExperimental.Customers.Api.csproj", "{38C36112-823F-4105-AB22-05EAFEED106B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansExperimental.AppHost", "OrleansExperimental.AppHost\OrleansExperimental.AppHost.csproj", "{CDD697A4-0660-4CFB-9C92-93C71EBB6A9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansExperimental.ServiceDefaults", "OrleansExperimental.ServiceDefaults\OrleansExperimental.ServiceDefaults.csproj", "{9E7580B8-B2B5-4B5B-A1B9-013325E3251E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansExperimental.IMessages", "OrleansExperimental.IMessages\OrleansExperimental.IMessages.csproj", "{3CD834BE-F7F2-4663-AD75-02B5D580AF80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansExperimental.Dashboards.Orleans", "OrleansExperimental.Dashboards.Orleans\OrleansExperimental.Dashboards.Orleans.csproj", "{F0693610-8984-444B-A0FF-DB0F6A45B791}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0B7303B4-40CB-485F-943B-E8DBDFA90177} = {0DA44E66-F74D-445F-86A1-ABCEB5E5900A}
+		{2F2A7117-7543-4B30-9A91-B4C6A26D183D} = {0B7303B4-40CB-485F-943B-E8DBDFA90177}
+		{1FA678D0-49BF-4FDC-AE20-A4F13051A0BE} = {0B7303B4-40CB-485F-943B-E8DBDFA90177}
+		{6EA90B0C-DDCC-4AD7-8687-8F343FF3D91A} = {0DA44E66-F74D-445F-86A1-ABCEB5E5900A}
+		{F3D29D2C-FCB6-4466-A4D9-11CEF42A9465} = {6EA90B0C-DDCC-4AD7-8687-8F343FF3D91A}
+		{38C36112-823F-4105-AB22-05EAFEED106B} = {6EA90B0C-DDCC-4AD7-8687-8F343FF3D91A}
+		{CDD697A4-0660-4CFB-9C92-93C71EBB6A9C} = {0DA44E66-F74D-445F-86A1-ABCEB5E5900A}
+		{9E7580B8-B2B5-4B5B-A1B9-013325E3251E} = {0DA44E66-F74D-445F-86A1-ABCEB5E5900A}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F2A7117-7543-4B30-9A91-B4C6A26D183D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F2A7117-7543-4B30-9A91-B4C6A26D183D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F2A7117-7543-4B30-9A91-B4C6A26D183D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F2A7117-7543-4B30-9A91-B4C6A26D183D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FA678D0-49BF-4FDC-AE20-A4F13051A0BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FA678D0-49BF-4FDC-AE20-A4F13051A0BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FA678D0-49BF-4FDC-AE20-A4F13051A0BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FA678D0-49BF-4FDC-AE20-A4F13051A0BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3D29D2C-FCB6-4466-A4D9-11CEF42A9465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3D29D2C-FCB6-4466-A4D9-11CEF42A9465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3D29D2C-FCB6-4466-A4D9-11CEF42A9465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3D29D2C-FCB6-4466-A4D9-11CEF42A9465}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38C36112-823F-4105-AB22-05EAFEED106B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38C36112-823F-4105-AB22-05EAFEED106B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38C36112-823F-4105-AB22-05EAFEED106B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38C36112-823F-4105-AB22-05EAFEED106B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDD697A4-0660-4CFB-9C92-93C71EBB6A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDD697A4-0660-4CFB-9C92-93C71EBB6A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDD697A4-0660-4CFB-9C92-93C71EBB6A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDD697A4-0660-4CFB-9C92-93C71EBB6A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E7580B8-B2B5-4B5B-A1B9-013325E3251E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E7580B8-B2B5-4B5B-A1B9-013325E3251E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E7580B8-B2B5-4B5B-A1B9-013325E3251E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E7580B8-B2B5-4B5B-A1B9-013325E3251E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CD834BE-F7F2-4663-AD75-02B5D580AF80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CD834BE-F7F2-4663-AD75-02B5D580AF80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CD834BE-F7F2-4663-AD75-02B5D580AF80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CD834BE-F7F2-4663-AD75-02B5D580AF80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0693610-8984-444B-A0FF-DB0F6A45B791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0693610-8984-444B-A0FF-DB0F6A45B791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0693610-8984-444B-A0FF-DB0F6A45B791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0693610-8984-444B-A0FF-DB0F6A45B791}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
